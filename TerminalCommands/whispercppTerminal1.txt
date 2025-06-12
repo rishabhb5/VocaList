@@ -1,0 +1,198 @@
+Last login: Mon Jun  9 22:08:32 on ttys003
+rishabh@rishabhs-MacBook-Air 2025_iOS % git clone git clone https://github.com/ggml-org/whisper.cpp.git
+fatal: Too many arguments.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    --reject-shallow      don't clone shallow repository
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    --recursive ...       alias of --recurse-submodules
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    --server-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+    --also-filter-submodules
+                          apply partial clone filters to submodules
+    --remote-submodules   any cloned submodules will use their remote-tracking branch
+    --sparse              initialize sparse-checkout file to include only files at root
+    --bundle-uri <uri>    a URI for downloading bundles before fetching from origin remote
+
+rishabh@rishabhs-MacBook-Air 2025_iOS % git clone https://github.com/ggml-org/whisper.cpp.git
+Cloning into 'whisper.cpp'...
+remote: Enumerating objects: 20119, done.
+remote: Counting objects: 100% (270/270), done.
+remote: Compressing objects: 100% (165/165), done.
+remote: Total 20119 (delta 114), reused 147 (delta 95), pack-reused 19849 (from 2)
+Receiving objects: 100% (20119/20119), 23.52 MiB | 34.60 MiB/s, done.
+Resolving deltas: 100% (14067/14067), done.
+rishabh@rishabhs-MacBook-Air 2025_iOS % ls
+bendi.edit			DevResources
+bendi.edit.cursor		masterList
+bendi.film			VocaList
+ChatGptTestApp			whisper.cpp
+cursorCalculator_oneShot
+rishabh@rishabhs-MacBook-Air 2025_iOS % cd ..
+rishabh@rishabhs-MacBook-Air Desktop % ls
+2025_iOS
+Film
+Lightroom Edits
+Screenshot 2025-05-15 at 9.58.25 AM.png
+Taxes
+rishabh@rishabhs-MacBook-Air Desktop % cd ..
+rishabh@rishabhs-MacBook-Air ~ % ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+rishabh@rishabhs-MacBook-Air ~ % cd .
+rishabh@rishabhs-MacBook-Air ~ % ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+rishabh@rishabhs-MacBook-Air ~ % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+==> Checking for `sudo` access (which may request your password)...
+Password:
+==> This script will install:
+/opt/homebrew/bin/brew
+/opt/homebrew/share/doc/homebrew
+/opt/homebrew/share/man/man1/brew.1
+/opt/homebrew/share/zsh/site-functions/_brew
+/opt/homebrew/etc/bash_completion.d/brew
+/opt/homebrew
+==> The following new directories will be created:
+/opt/homebrew/bin
+/opt/homebrew/etc
+/opt/homebrew/include
+/opt/homebrew/lib
+/opt/homebrew/sbin
+/opt/homebrew/share
+/opt/homebrew/var
+/opt/homebrew/opt
+/opt/homebrew/share/zsh
+/opt/homebrew/share/zsh/site-functions
+/opt/homebrew/var/homebrew
+/opt/homebrew/var/homebrew/linked
+/opt/homebrew/Cellar
+/opt/homebrew/Caskroom
+/opt/homebrew/Frameworks
+
+Press RETURN/ENTER to continue or any other key to abort:
+==> /usr/bin/sudo /usr/bin/install -d -o root -g wheel -m 0755 /opt/homebrew
+==> /usr/bin/sudo /bin/mkdir -p /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /bin/chmod ug=rwx /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /bin/chmod go-w /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions
+==> /usr/bin/sudo /usr/sbin/chown rishabh /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /usr/bin/chgrp admin /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /usr/sbin/chown -R rishabh:admin /opt/homebrew
+==> /usr/bin/sudo /bin/mkdir -p /Users/rishabh/Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Users/rishabh/Library/Caches/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown -R rishabh /Users/rishabh/Library/Caches/Homebrew
+==> Downloading and installing Homebrew...
+remote: Enumerating objects: 302963, done.
+remote: Counting objects: 100% (410/410), done.
+remote: Compressing objects: 100% (285/285), done.
+remote: Total 302963 (delta 228), reused 189 (delta 122), pack-reused 302553 (from 4)
+remote: Enumerating objects: 55, done.
+remote: Counting objects: 100% (33/33), done.
+remote: Total 55 (delta 33), reused 33 (delta 33), pack-reused 22 (from 1)
+==> Updating Homebrew...
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:fd162df7a06190ee800a9e6afd28f4466d33548821a480ba043cd927b44d60f7
+######################################################################### 100.0%
+==> Pouring portable-ruby-3.4.4.arm64_big_sur.bottle.tar.gz
+Warning: /opt/homebrew/bin is not in your PATH.
+  Instructions on how to configure your shell for Homebrew
+  can be found in the 'Next steps' section below.
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run these commands in your terminal to add Homebrew to your PATH:
+    echo >> /Users/rishabh/.zprofile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/rishabh/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+rishabh@rishabhs-MacBook-Air ~ % brew install cmake
+zsh: command not found: brew
+rishabh@rishabhs-MacBook-Air ~ % $ brew install cmake
+zsh: command not found: $
+rishabh@rishabhs-MacBook-Air ~ % $brew install cmake 
+usage: install [-bCcpSsUv] [-f flags] [-g group] [-m mode] [-o owner]
+               [-M log] [-D dest] [-h hash] [-T tags]
+               [-B suffix] [-l linkflags] [-N dbdir]
+               file1 file2
+       install [-bCcpSsUv] [-f flags] [-g group] [-m mode] [-o owner]
+               [-M log] [-D dest] [-h hash] [-T tags]
+               [-B suffix] [-l linkflags] [-N dbdir]
+               file1 ... fileN directory
+       install -dU [-vU] [-g group] [-m mode] [-N dbdir] [-o owner]
+               [-M log] [-D dest] [-h hash] [-T tags]
+               directory ...
+rishabh@rishabhs-MacBook-Air ~ % cd /opt/homebrew/bin/
+rishabh@rishabhs-MacBook-Air bin % ls
+brew
+rishabh@rishabhs-MacBook-Air bin % PATH=$PATH:/opt/homebrew/bin
+rishabh@rishabhs-MacBook-Air bin % echo export PATH=$PATH:/opt/homebrew/bin >> ~/.zshrc
+rishabh@rishabhs-MacBook-Air bin % brew doctor
+Your system is ready to brew.
+rishabh@rishabhs-MacBook-Air bin % brew install cmake
+Warning: Treating cmake as a formula. For the cask, use homebrew/cask/cmake or specify the `--cask` flag. To silence this message, use the `--formula` flag.
+==> Downloading https://ghcr.io/v2/homebrew/core/cmake/manifests/4.0.2
+######################################################################### 100.0%
+==> Fetching cmake
+==> Downloading https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:7bd4605b03b0
+######################################################################### 100.0%
+==> Pouring cmake--4.0.2.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To install the CMake documentation, run:
+  brew install cmake-docs
+==> Summary
+🍺  /opt/homebrew/Cellar/cmake/4.0.2: 3,870 files, 57.3MB
+==> Running `brew cleanup cmake`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+Emacs Lisp files have been installed to:
+  /opt/homebrew/share/emacs/site-lisp/cmake
+rishabh@rishabhs-MacBook-Air bin % 
