@@ -23,16 +23,6 @@ struct ActiveItemView: View {
                 Text(item.title)
                     .foregroundColor(.primary)
                     .font(.system(size: 16, weight: .medium))
-                
-//                HStack(spacing: 4) {
-//                    Image(systemName: item.category.icon)
-//                        .font(.system(size: 12))
-//                        .foregroundColor(item.category.color)
-//                    
-//                    Text(item.category.rawValue)
-//                        .font(.system(size: 12, weight: .medium))
-//                        .foregroundColor(item.category.color)
-//                }
             } /* VStack */
             
             Spacer()
