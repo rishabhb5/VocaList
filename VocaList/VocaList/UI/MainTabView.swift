@@ -15,10 +15,10 @@ struct MainTabView: View {
                     Text("Active")
                 }
             
-            DebugView()
+            CompletedView()
                 .tabItem {
-                    Image(systemName: "gear")
-                    Text("Debug")
+                    Image(systemName: "checkmark.circle")
+                    Text("Completed")
                 }
         }
     }
